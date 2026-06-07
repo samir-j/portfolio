@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Samir Jaiswal — AI/ML Engineer & Full Stack Developer with expertise in deep learning, computer vision, generative AI, LLMs, multi-agent systems, and RAG pipelines. Explore projects, skills, certifications, and publications.">
+    <meta name="author" content="Samir Jaiswal">
+    <meta name="keywords" content="Samir Jaiswal, AI Engineer, ML Engineer, Full Stack Developer, Deep Learning, Computer Vision, Generative AI, LLMs, Multi-Agent Systems, RAG, Portfolio">
+
+    <title>Samir Jaiswal | AI/ML Engineer &amp; Full Stack Developer</title>
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Samir Jaiswal | AI/ML Engineer & Full Stack Developer">
+    <meta property="og:description" content="Portfolio of Samir Jaiswal — AI/ML Engineer and Full Stack Developer specializing in deep learning, computer vision, generative AI, LLMs, and multi-agent systems.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="photo/photo.jpeg">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Inline SVG Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%23f0c040'/%3E%3Cstop offset='100%25' stop-color='%23d4a028'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='14' fill='%230a0f1e'/%3E%3Crect x='2' y='2' width='60' height='60' rx='12' fill='none' stroke='url(%23g)' stroke-width='2'/%3E%3Ctext x='32' y='43' font-family='Inter,Arial,sans-serif' font-size='28' font-weight='700' fill='url(%23g)' text-anchor='middle'%3ESJ%3C/text%3E%3C/svg%3E">
+
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Samir Jaiswal",
+        "image": "photo/photo.jpeg",
+        "jobTitle": "AI/ML Engineer & Full Stack Developer",
+        "email": "samirjaiswal2121@gmail.com",
+        "telephone": "+917007084082",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Dehradun",
+            "addressCountry": "IN"
+        },
+        "sameAs": [
+            "https://github.com/samir-j",
+            "https://linkedin.com/in/samir-j-967269121/",
+            "https://scholar.google.com/citations?user=_E6iEeYAAAAJ&hl=en"
+        ],
+        "alumniOf": [
+            { "@type": "CollegeOrUniversity", "name": "University of Petroleum and Energy Studies (UPES)" },
+            { "@type": "CollegeOrUniversity", "name": "Bharati Vidyapeeth College of Engineering (BVCOEP)" }
+        ],
+        "knowsAbout": ["Machine Learning", "Deep Learning", "Computer Vision", "Generative AI", "LLMs", "Multi-Agent Systems", "RAG Pipelines", "Full Stack Development"]
+    }
+    </script>
+</head>
+<body>
+
+    <!-- ===================== PRELOADER ===================== -->
+    <div class="preloader" id="preloader" aria-label="Loading">
+        <div class="preloader__logo">SJ</div>
+        <div class="preloader__bar-track">
+            <div class="preloader__bar-fill"></div>
+        </div>
+    </div>
+
+    <!-- ===================== NAVIGATION ===================== -->
+    <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+        <div class="navbar__inner">
+            <a href="#hero" class="navbar__logo" aria-label="Samir Jaiswal — go to top">SJ</a>
+
+            <ul class="navbar__menu" id="nav-links" role="menubar">
+                <li role="none"><a href="#about" class="navbar__link" role="menuitem">About</a></li>
+                <li role="none"><a href="#experience" class="navbar__link" role="menuitem">Experience</a></li>
+                <li role="none"><a href="#education" class="navbar__link" role="menuitem">Education</a></li>
+                <li role="none"><a href="#projects" class="navbar__link" role="menuitem">Projects</a></li>
+                <li role="none"><a href="#skills" class="navbar__link" role="menuitem">Skills</a></li>
+                <li role="none"><a href="#certifications" class="navbar__link" role="menuitem">Certifications</a></li>
+                <li role="none"><a href="#achievements" class="navbar__link" role="menuitem">Achievements</a></li>
+                <li role="none"><a href="#contact" class="navbar__link" role="menuitem">Contact</a></li>
+            </ul>
+
+            <button class="navbar__hamburger" id="hamburger-btn" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+
+        <!-- Mobile Menu Overlay -->
+        <div class="navbar__mobile-overlay" id="mobile-menu" aria-label="Mobile navigation menu" aria-hidden="true">
+            <a href="#about" class="navbar__link">About</a>
+            <a href="#experience" class="navbar__link">Experience</a>
+            <a href="#education" class="navbar__link">Education</a>
+            <a href="#projects" class="navbar__link">Projects</a>
+            <a href="#skills" class="navbar__link">Skills</a>
+            <a href="#certifications" class="navbar__link">Certifications</a>
+            <a href="#achievements" class="navbar__link">Achievements</a>
+            <a href="#contact" class="navbar__link">Contact</a>
+        </div>
+    </nav>
+
+    <main>
+
+        <!-- ===================== HERO SECTION ===================== -->
+        <section class="hero" id="hero" aria-label="Introduction">
+            <!-- Animated Gradient Background -->
+            <div class="hero__bg" aria-hidden="true"></div>
+
+            <!-- Floating Particles -->
+            <div class="hero__particles" id="particles-bg" aria-hidden="true">
+                <div class="hero__particle"></div>
+                <div class="hero__particle"></div>
+                <div class="hero__particle"></div>
+                <div class="hero__particle"></div>
+                <div class="hero__particle"></div>
+                <div class="hero__particle"></div>
+                <div class="hero__particle"></div>
+                <div class="hero__particle"></div>
+                <div class="hero__particle"></div>
+                <div class="hero__particle"></div>
+            </div>
+
+            <div class="hero__content">
+                <p class="hero__greeting fade-in-up stagger-1">Hello, I'm</p>
+                <h1 class="hero__name fade-in-up stagger-2">Samir Jaiswal</h1>
+
+                <div class="hero__designation fade-in-up stagger-3" aria-label="Roles and specializations">
+                    <span class="hero__designation-text" id="typewriter"></span>
+                </div>
+                <span class="sr-only">AI/ML Engineer · Agentic AI Developer · Full Stack Developer · AI Research Enthusiast</span>
+
+                <p class="hero__tagline fade-in-up stagger-4">Hi, I am Samir Jaiswal, AI/ML Engineer and Full Stack Developer with over a year of experience building intelligent systems to address the real world issues we face. My educational background is solid with a B.Tech in Information Technology(9.14 CGPA) and an M.Tech in Computer Science with specialization in Artificial Intelligence and Machine Learning (8.67 CGPA). I focus on areas such as ML, DL, computer vision, generative AI, LLMs, Multi-Agent Systems and RAG. I have previously delivered production ready solutions at Siemens Technology and Services and IBM – ranging from enterprise desktop apps to ML powered anomaly detection systems that got 97% AUC. Whether developing Multi-agent RAG platforms, training Super Resolution models, building healthcare and mental health analytics for predicting issues, I combine strong research and engineering skills to deliver great solutions. Let's build something amazing!</p>
+
+                <div class="hero__actions fade-in-up stagger-5">
+                    <a href="#about" class="btn-primary btn-shimmer" id="cta-learn-more">Learn More About Me</a>
+                    <a href="#contact" class="btn-secondary" id="cta-contact">Get In Touch</a>
+                </div>
+
+                <div class="hero__actions fade-in-up stagger-6" style="margin-top: 1.5rem;">
+                    <a href="https://github.com/samir-j" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile" class="social-icon" id="hero-github">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                    </a>
+                    <a href="https://linkedin.com/in/samir-j-967269121/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile" class="social-icon" id="hero-linkedin">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                    </a>
+                    <a href="mailto:samirjaiswal2121@gmail.com" aria-label="Send Email" class="social-icon" id="hero-email">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Scroll Down Indicator -->
+            <a href="#about" class="hero__scroll-indicator" aria-label="Scroll down" id="scroll-down-arrow">
+                <span>Scroll Down</span>
+                <div class="hero__scroll-mouse"></div>
+            </a>
+        </section>
+
+        <!-- ===================== ABOUT ME ===================== -->
+        <section class="about section" id="about" aria-labelledby="about-title">
+            <div class="container">
+                <div class="section__header">
+                    <span class="section__label">About Me</span>
+                    <h2 class="section__title fade-in-up" id="about-title">Get To Know Me</h2>
+                    <div class="section__divider"></div>
+                </div>
+
+                <div class="about__grid">
+                    <div class="about__text fade-in-left">
+                        <p>Samir Jaiswal is an AI/ML Engineer and Full Stack Developer. Samir holds an M.Tech degree in Computer Science with specialization in Artificial Intelligence and Machine Learning from University of Petroleum and Energy Studies (UPES), Dehradun (CGPA 8.67) and a B.Tech degree in Information Technology from Bharati Vidyapeeth College of Engineering, Pune (CGPA 9.14). He has previously worked as a Software Development Engineer in Siemens Technology and Services and as an AI/ML Intern in IBM. He has worked throughout the entire product development life-cycle ranging from building scalable enterprise applications utilizing .NET Core, C#, and MySQL, to building and deploying deep learning models in production to predict real-time anomalies and develop smart automation. He is experienced with python, FastAPI, django, LangGraph, PyTorch, TensorFlow, docker, sql, mongo DB, generative AI,LLMs, Multi-Agent Systems and RAG pipelines. He is a published researcher and an AI Certified Professional with expertise in building cutting edge solutions that deliver impact.</p>
+                    </div>
+
+                    <div class="about__image-wrapper fade-in-right">
+                        <div class="about__image-ring">
+                            <img src="photo/photo.jpeg" alt="Samir Jaiswal — AI/ML Engineer and Full Stack Developer" class="about__image" loading="lazy" width="400" height="400">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about__cards">
+                    <article class="about__card fade-in-up stagger-1" id="mission-card">
+                        <div class="about__card-icon" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+                        </div>
+                        <h4>Mission</h4>
+                        <p>To engineer intelligent systems that bridge the gap between cutting-edge AI research and real-world applications, delivering measurable value through principled software craftsmanship.</p>
+                    </article>
+
+                    <article class="about__card fade-in-up stagger-2" id="vision-card">
+                        <div class="about__card-icon" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg>
+                        </div>
+                        <h4>Vision</h4>
+                        <p>To become a leading AI engineer who shapes the next generation of human centred AI products ,systems that are not only powerful but also transparent, reliable, and beneficial at scale.</p>
+                    </article>
+                </div>
+
+                <div class="about__actions fade-in-up">
+                    <a href="#experience" class="btn-secondary">Work Experience</a>
+                    <a href="#education" class="btn-secondary">Education</a>
+                    <a href="#projects" class="btn-secondary">Projects</a>
+                    <a href="#skills" class="btn-secondary">Skills</a>
+                    <a href="#certifications" class="btn-secondary">Certifications</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== WORK EXPERIENCE ===================== -->
+        <section class="experience section" id="experience" aria-labelledby="experience-title">
+            <div class="container">
+                <div class="section__header">
+                    <span class="section__label">Career</span>
+                    <h2 class="section__title fade-in-up" id="experience-title">Work Experience</h2>
+                    <div class="section__divider"></div>
+                </div>
+
+                <div class="timeline">
+                    <!-- Role 1 — IBM -->
+                    <article class="timeline__item fade-in-left" id="exp-ibm">
+                        <div class="timeline__dot" aria-hidden="true"></div>
+                        <div class="timeline__card">
+                            <div class="timeline__card-header">
+                                <span class="badge badge--intern">Internship</span>
+                                <span class="timeline__date">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4"/><path d="M8 2v4"/><path d="M3 10h18"/></svg>
+                                    June 2025 – July 2025
+                                </span>
+                            </div>
+                            <h3 class="timeline__role">AI/ML Intern</h3>
+                            <h4 class="timeline__company">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                                IBM · Remote
+                            </h4>
+                            <div class="timeline__description">
+                                <ul>
+                                    <li>Built and deployed a ConvLSTM Autoencoder combining CNN and LSTM layers to learn spatiotemporal patterns in video data.</li>
+                                    <li>Created a complete preprocessing and anomaly detection workflow using the UCSD Ped1 dataset, visualising suspicious events intuitively.</li>
+                                    <li>Developed a Flask web application enabling users to upload videos and automatically view highlighted anomaly regions in the output.</li>
+                                    <li>Integrated reconstruction error thresholding for real-time anomaly scoring in video streams.</li>
+                                </ul>
+                            </div>
+                            <div class="timeline__description">
+                                <h5>Key Achievements</h5>
+                                <ul>
+                                    <li>Achieved a 97% AUC score for video anomaly detection, exceeding benchmark performance on the UCSD Ped1 dataset.</li>
+                                    <li>Delivered a fully functional end-to-end Flask deployment pipeline within a 2-month internship cycle.</li>
+                                </ul>
+                            </div>
+                            <div class="timeline__links">
+                                <a href="https://drive.google.com/file/d/1EwEVQOwYVT9ZYrsz6CHXnIvoOkcRCXuI/view" target="_blank" rel="noopener noreferrer" class="btn-link" id="exp-ibm-cert">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/></svg>
+                                    View Certificate →
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Role 2 — Siemens -->
+                    <article class="timeline__item fade-in-right" id="exp-siemens">
+                        <div class="timeline__dot" aria-hidden="true"></div>
+                        <div class="timeline__card">
+                            <div class="timeline__card-header">
+                                <span class="badge badge--fulltime">Full-Time</span>
+                                <span class="timeline__date">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4"/><path d="M8 2v4"/><path d="M3 10h18"/></svg>
+                                    July 2023 – July 2024
+                                </span>
+                            </div>
+                            <h3 class="timeline__role">Software Development Engineer (SDE)</h3>
+                            <h4 class="timeline__company">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                                Siemens Technology and Services · India
+                            </h4>
+                            <div class="timeline__description">
+                                <ul>
+                                    <li>Made a major contribution to the development of the advanced SI-Quote desktop application, covering all stages of the SDLC.</li>
+                                    <li>Built a scalable and high-performing backend using MySQL, .NET Core, and C#.</li>
+                                    <li>Designed responsive and user-friendly interfaces using WPF (Windows Presentation Foundation).</li>
+                                    <li>Collaborated across cross-functional teams to ensure delivery of a high-performing, production-ready solution.</li>
+                                </ul>
+                            </div>
+                            <div class="timeline__description">
+                                <h5>Key Achievements</h5>
+                                <ul>
+                                    <li>Delivered a robust, enterprise-grade desktop application serving internal Siemens quoting workflows across multiple teams.</li>
+                                    <li>Reduced UI response latency by optimising WPF data-binding patterns and backend query structures throughout the SDLC.</li>
+                                </ul>
+                            </div>
+                            <div class="timeline__links">
+                                <a href="https://drive.google.com/file/d/1qmKxwAOk4Qu-jyN6HbbYBpdJWlMGhJ64/view" target="_blank" rel="noopener noreferrer" class="btn-link" id="exp-siemens-letter">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/></svg>
+                                    Experience Letter →
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== EDUCATION ===================== -->
+        <section class="education section" id="education" aria-labelledby="education-title">
+            <div class="container">
+                <div class="section__header">
+                    <span class="section__label">Education</span>
+                    <h2 class="section__title fade-in-up" id="education-title">Academic Background</h2>
+                    <div class="section__divider"></div>
+                </div>
+
+                <div class="education__grid">
+                    <!-- M.Tech -->
+                    <article class="education__card fade-in-up stagger-1" id="edu-mtech">
+                        <div class="education__icon" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 1.1 2.7 3 6 3s6-1.9 6-3v-5"/></svg>
+                        </div>
+                        <h3 class="education__degree">M.Tech in Computer Science</h3>
+                        <p class="education__institution">University of Petroleum and Energy Studies (UPES)</p>
+                        <p class="education__duration">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                            Dehradun, India · 2024 – 2026
+                        </p>
+                        <span class="chip">Full-time</span>
+                        <div class="education__cgpa">
+                            <span class="education__cgpa-label">CGPA</span>
+                            <span class="education__cgpa-value">8.67 / 10</span>
+                        </div>
+                        <div class="education__highlights">
+                            <h5>Key Highlights</h5>
+                            <ul>
+                                <li>Specialisation in Machine Learning, Deep Learning, and Generative AI systems.</li>
+                                <li>Active researcher with publications on AI-driven analytical systems.</li>
+                                <li>Developed multiple capstone projects involving multi-agent systems, image super-resolution, and edge AI deployment.</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <!-- B.Tech -->
+                    <article class="education__card fade-in-up stagger-2" id="edu-btech">
+                        <div class="education__icon" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 1.1 2.7 3 6 3s6-1.9 6-3v-5"/></svg>
+                        </div>
+                        <h3 class="education__degree">B.Tech in Information Technology</h3>
+                        <p class="education__institution">Bharati Vidyapeeth College of Engineering (BVCOEP)</p>
+                        <p class="education__duration">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                            Pune, India · 2019 – 2023
+                        </p>
+                        <span class="chip">Full-time</span>
+                        <div class="education__cgpa">
+                            <span class="education__cgpa-label">CGPA</span>
+                            <span class="education__cgpa-value">9.14 / 10</span>
+                        </div>
+                        <div class="education__highlights">
+                            <h5>Key Highlights</h5>
+                            <ul>
+                                <li>CGPA: 9.14 / 10 — top-tier academic performance throughout the programme.</li>
+                                <li>Strong foundation in data structures, algorithms, databases, software engineering, and computer networks.</li>
+                                <li>Capstone projects focused on ML-powered disease prediction and file deduplication systems.</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== PROJECTS ===================== -->
+        <section class="projects section" id="projects" aria-labelledby="projects-title">
+            <div class="container">
+                <div class="section__header">
+                    <span class="section__label">Portfolio</span>
+                    <h2 class="section__title fade-in-up" id="projects-title">Projects</h2>
+                    <div class="section__divider"></div>
+                </div>
+
+                <div class="flex-center gap-md flex-wrap fade-in-up mb-xl" role="group" aria-label="Filter projects by category">
+                    <button class="btn-secondary filter-btn active" data-filter="all" id="filter-all">All</button>
+                    <button class="btn-secondary filter-btn" data-filter="ai" id="filter-ai">AI/ML</button>
+                    <button class="btn-secondary filter-btn" data-filter="cv" id="filter-cv">Computer Vision</button>
+                    <button class="btn-secondary filter-btn" data-filter="fullstack" id="filter-fullstack">Full Stack</button>
+                    <button class="btn-secondary filter-btn" data-filter="nlp" id="filter-nlp">NLP</button>
+                </div>
+
+                <div class="projects__grid">
+                    <!-- Project 1: IT Support Agent -->
+                    <article class="project-card fade-in-up stagger-1" data-category="ai" id="project-it-support">
+                        <div class="project-card__body">
+                            <div class="flex-between mb-md">
+                                <span class="badge badge--intern">AI / Multi-Agent System</span>
+                                <span class="chip">June 2026</span>
+                            </div>
+                            <h3 class="project-card__title">IT Support Agent</h3>
+                            <p class="project-card__description">A production-ready multi-agent RAG pipeline that streamlines IT support and incident resolution. The system uses four specialised agents — Retrieval, Troubleshooting, Ticketing, and Summarisation — orchestrated via LangGraph, with a FastAPI backend and ChromaDB vector store. Semantic search over 1,000+ IT support documents enables context-aware answers with intelligent escalation.</p>
+                            <h4 style="font-size: 0.8rem; color: var(--accent); margin-bottom: 0.5rem; text-transform: uppercase; letter-spacing: 1px;">Key Outcomes</h4>
+                            <ul style="margin-bottom: 1.5rem;">
+                                <li style="font-size: 0.875rem; color: var(--text-secondary); padding: 0.2rem 0; padding-left: 1rem; position: relative;">Designed and implemented a full multi-agent pipeline using LangGraph, FastAPI, ChromaDB, and Llama 3.3 70B.</li>
+                                <li style="font-size: 0.875rem; color: var(--text-secondary); padding: 0.2rem 0; padding-left: 1rem; position: relative;">Built a semantic search engine over 1,000+ documents using Sentence Transformers and Hugging Face datasets.</li>
+                                <li style="font-size: 0.875rem; color: var(--text-secondary); padding: 0.2rem 0; padding-left: 1rem; position: relative;">Implemented answer scoring and intelligent escalation logic for unsolved tickets.</li>
+                                <li style="font-size: 0.875rem; color: var(--text-secondary); padding: 0.2rem 0; padding-left: 1rem; position: relative;">Reduced manual IT resolution effort through automated retrieval and ticket summarisation.</li>
+                            </ul>
+                            <div class="project-card__tags">
+                                <span class="tag">LangGraph</span><span class="tag">FastAPI</span><span class="tag">ChromaDB</span><span class="tag">Llama 3.3 70B</span><span class="tag">Sentence Transformers</span><span class="tag">Python</span>
+                            </div>
+                            <div class="project-card__links">
+                                <a href="https://github.com/samir-j/IT-Support-Agent" target="_blank" rel="noopener noreferrer" class="btn-link" id="project-it-gh">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                                    GitHub →
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 2: Image Super Resolution -->
+                    <article class="project-card fade-in-up stagger-2" data-category="cv" id="project-super-res">
+                        <div class="project-card__body">
+                            <div class="flex-between mb-md">
+                                <span class="badge badge--fulltime">Computer Vision / Deep Learning</span>
+                                <span class="chip">May 2026</span>
+                            </div>
+                            <h3 class="project-card__title">Image Super Resolution Under Unknown Degradations (MDSR)</h3>
+                            <p class="project-card__description">MDSR is a novel multi-degradation super-resolution model supporting 2×, 3×, and 4× upscaling across four real-world degradation types. It introduces a HRDG block with FiLM-style degradation conditioning to handle unknown degradations at inference time without retraining.</p>
+                            <h4 style="font-size: 0.8rem; color: var(--accent); margin-bottom: 0.5rem; text-transform: uppercase; letter-spacing: 1px;">Key Outcomes</h4>
+                            <ul style="margin-bottom: 1.5rem;">
+                                <li style="font-size: 0.875rem; color: var(--text-secondary); padding: 0.2rem 0; padding-left: 1rem;">Designed the HRDG block with FiLM-style conditioning for adaptive degradation-aware upscaling.</li>
+                                <li style="font-size: 0.875rem; color: var(--text-secondary); padding: 0.2rem 0; padding-left: 1rem;">Trained on the DIV2K dataset using AdamW, AMP, and EMA stabilisation over 500 GPU epochs.</li>
+                                <li style="font-size: 0.875rem; color: var(--text-secondary); padding: 0.2rem 0; padding-left: 1rem;">Achieved robust upscaling across four degradation types with progressive multi-term loss scheduling.</li>
+                                <li style="font-size: 0.875rem; color: var(--text-secondary); padding: 0.2rem 0; padding-left: 1rem;">Published results demonstrating sharp, artefact-free super-resolution on real-world degraded inputs.</li>
+                            </ul>
+                            <div class="project-card__tags">
+                                <span class="tag">PyTorch</span><span class="tag">FiLM Conditioning</span><span class="tag">AdamW</span><span class="tag">AMP</span><span class="tag">EMA</span><span class="tag">DIV2K</span><span class="tag">Python</span>
+                            </div>
+                            <div class="project-card__links">
+                                <a href="https://github.com/samir-j/Image-Super-Resolution" target="_blank" rel="noopener noreferrer" class="btn-link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                                    GitHub →
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 3: Edge Detection -->
+                    <article class="project-card fade-in-up stagger-3" data-category="cv" id="project-edge-det">
+                        <div class="project-card__body">
+                            <div class="flex-between mb-md">
+                                <span class="badge badge--fulltime">Computer Vision / Edge AI</span>
+                                <span class="chip">2024</span>
+                            </div>
+                            <h3 class="project-card__title">Real-Time Quantized Object Detection for Resource-Constrained Edge Devices</h3>
+                            <p class="project-card__description">A hardware-efficient object detection system designed for deployment on resource-constrained edge devices such as Raspberry Pi and embedded microcontrollers. The project applies model quantization and compression techniques to bring real-time inference capabilities to devices with limited compute, memory, and power budgets.</p>
+                            <h4 style="font-size: 0.8rem; color: var(--accent); margin-bottom: 0.5rem; text-transform: uppercase; letter-spacing: 1px;">Key Outcomes</h4>
+                            <ul style="margin-bottom: 1.5rem;">
+                                <li style="font-size: 0.875rem; color: var(--text-secondary); padding: 0.2rem 0; padding-left: 1rem;">Applied quantization (INT8/FP16) and model pruning to compress object detection architectures for edge deployment.</li>
+                                <li style="font-size: 0.875rem; color: var(--text-secondary); padding: 0.2rem 0; padding-left: 1rem;">Achieved real-time inference speeds on resource-constrained hardware by optimising the model pipeline.</li>
+                                <li style="font-size: 0.875rem; color: var(--text-secondary); padding: 0.2rem 0; padding-left: 1rem;">Demonstrated deployment on edge devices with significantly reduced memory footprint.</li>
+                                <li style="font-size: 0.875rem; color: var(--text-secondary); padding: 0.2rem 0; padding-left: 1rem;">Bridged the gap between research-grade detection models and practical low-power embedded deployments.</li>
+                            </ul>
+                            <div class="project-card__tags">
+                                <span class="tag">Python</span><span class="tag">PyTorch</span><span class="tag">TensorFlow Lite</span><span class="tag">INT8/FP16</span><span class="tag">Edge AI</span><span class="tag">OpenCV</span><span class="tag">Raspberry Pi</span>
+                            </div>
+                            <div class="project-card__links">
+                                <a href="https://github.com/samir-j/Real-Time-Quantized-Object-Detection-for-Resource-Constrained-Edge-Devices" target="_blank" rel="noopener noreferrer" class="btn-link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                                    GitHub →
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 4: Mental Health -->
+                    <article class="project-card fade-in-up stagger-4" data-category="nlp" id="project-mental-health">
+                        <div class="project-card__body">
+                            <div class="flex-between mb-md">
+                                <span class="badge badge--contract">Machine Learning / NLP</span>
+                                <span class="chip">January 2025</span>
+                            </div>
+                            <h3 class="project-card__title">Mental Health Prediction via Social Media Analysis</h3>
+                            <p class="project-card__description">A machine learning project that analyses social media datasets to identify and predict mental health disorder risks in users. Multiple ML models were benchmarked, with Random Forest emerging as the top performer. The project contributes to early detection of mental health risks through passive data signals.</p>
+                            <h4 style="font-size: 0.8rem; color: var(--accent); margin-bottom: 0.5rem; text-transform: uppercase; letter-spacing: 1px;">Key Outcomes</h4>
+                            <ul style="margin-bottom: 1.5rem;">
+                                <li style="font-size: 0.875rem; color: var(--text-secondary); padding: 0.2rem 0; padding-left: 1rem;">Implemented and benchmarked multiple machine learning models for mental health risk classification.</li>
+                                <li style="font-size: 0.875rem; color: var(--text-secondary); padding: 0.2rem 0; padding-left: 1rem;">Achieved 96% accuracy and 95% kappa score using a Random Forest classifier.</li>
+                                <li style="font-size: 0.875rem; color: var(--text-secondary); padding: 0.2rem 0; padding-left: 1rem;">Conducted feature importance analysis to identify strongest social-media behavioural signals.</li>
+                                <li style="font-size: 0.875rem; color: var(--text-secondary); padding: 0.2rem 0; padding-left: 1rem;">Produced insights applicable to early-warning mental health monitoring platforms.</li>
+                            </ul>
+                            <div class="project-card__tags">
+                                <span class="tag">Python</span><span class="tag">Scikit-learn</span><span class="tag">Random Forest</span><span class="tag">Pandas</span><span class="tag">NLP</span><span class="tag">Jupyter</span>
+                            </div>
+                            <div class="project-card__links">
+                                <a href="https://github.com/samir-j/Analysis_on_Mental_Health" target="_blank" rel="noopener noreferrer" class="btn-link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                                    GitHub →
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 5: Lumpy Skin Disease -->
+                    <article class="project-card fade-in-up stagger-5" data-category="cv" id="project-lumpy">
+                        <div class="project-card__body">
+                            <div class="flex-between mb-md">
+                                <span class="badge badge--fulltime">Computer Vision / Healthcare AI</span>
+                                <span class="chip">2023</span>
+                            </div>
+                            <h3 class="project-card__title">Lumpy Skin Disease Predictor</h3>
+                            <p class="project-card__description">A deep learning system for detecting Lumpy Skin Disease in cattle using image classification. Multiple state-of-the-art CNN architectures — ResNet50, VGG16, and InceptionV3 — were trained and compared, achieving 98% accuracy for early disease detection to support livestock health management.</p>
+                            <h4 style="font-size: 0.8rem; color: var(--accent); margin-bottom: 0.5rem; text-transform: uppercase; letter-spacing: 1px;">Key Outcomes</h4>
+                            <ul style="margin-bottom: 1.5rem;">
+                                <li style="font-size: 0.875rem; color: var(--text-secondary); padding: 0.2rem 0; padding-left: 1rem;">Trained and evaluated ResNet50, VGG16, and InceptionV3 on cattle skin disease image datasets.</li>
+                                <li style="font-size: 0.875rem; color: var(--text-secondary); padding: 0.2rem 0; padding-left: 1rem;">Achieved 98% classification accuracy, enabling reliable early detection of lumpy skin disease.</li>
+                                <li style="font-size: 0.875rem; color: var(--text-secondary); padding: 0.2rem 0; padding-left: 1rem;">Designed a clean inference pipeline suitable for field deployment on mobile or edge devices.</li>
+                                <li style="font-size: 0.875rem; color: var(--text-secondary); padding: 0.2rem 0; padding-left: 1rem;">Demonstrated cross-architecture comparison methodology for medical image classification tasks.</li>
+                            </ul>
+                            <div class="project-card__tags">
+                                <span class="tag">Python</span><span class="tag">TensorFlow</span><span class="tag">ResNet50</span><span class="tag">VGG16</span><span class="tag">InceptionV3</span><span class="tag">OpenCV</span>
+                            </div>
+                            <div class="project-card__links">
+                                <a href="https://github.com/samir-j/Lumpy_Skin_Disease_Predictor" target="_blank" rel="noopener noreferrer" class="btn-link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                                    GitHub →
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 6: Data Unification -->
+                    <article class="project-card fade-in-up stagger-6" data-category="fullstack" id="project-data-unif">
+                        <div class="project-card__body">
+                            <div class="flex-between mb-md">
+                                <span class="badge badge--freelance">Full Stack / Data Engineering</span>
+                                <span class="chip">2023</span>
+                            </div>
+                            <h3 class="project-card__title">Data Unification for Files using MD5 and Fuzzy Matching</h3>
+                            <p class="project-card__description">A Django web application for intelligent file deduplication using MD5 hashing for exact duplicates and Fuzzy Matching for near-duplicate detection. The tool unifies fragmented data across file systems, reducing storage redundancy and improving data hygiene for enterprises.</p>
+                            <h4 style="font-size: 0.8rem; color: var(--accent); margin-bottom: 0.5rem; text-transform: uppercase; letter-spacing: 1px;">Key Outcomes</h4>
+                            <ul style="margin-bottom: 1.5rem;">
+                                <li style="font-size: 0.875rem; color: var(--text-secondary); padding: 0.2rem 0; padding-left: 1rem;">Built a complete Django web app integrating MD5 hashing and Fuzzy Matching algorithms for file deduplication.</li>
+                                <li style="font-size: 0.875rem; color: var(--text-secondary); padding: 0.2rem 0; padding-left: 1rem;">Enabled detection of both exact and semantically similar duplicate files in a single workflow.</li>
+                                <li style="font-size: 0.875rem; color: var(--text-secondary); padding: 0.2rem 0; padding-left: 1rem;">Published a research paper on the methodology in the Indian Journal of Technical Education.</li>
+                                <li style="font-size: 0.875rem; color: var(--text-secondary); padding: 0.2rem 0; padding-left: 1rem;">Demonstrated practical reduction in redundant storage for organisations with large file archives.</li>
+                            </ul>
+                            <div class="project-card__tags">
+                                <span class="tag">Python</span><span class="tag">Django</span><span class="tag">MD5 Hashing</span><span class="tag">Fuzzy Matching</span><span class="tag">SQL</span><span class="tag">HTML/CSS</span>
+                            </div>
+                            <div class="project-card__links">
+                                <a href="https://github.com/samir-j/Data-Unification_for_files_using_MD5_and_Fuzzy" target="_blank" rel="noopener noreferrer" class="btn-link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                                    GitHub →
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== SKILLS ===================== -->
+        <section class="skills section" id="skills" aria-labelledby="skills-title">
+            <div class="container">
+                <div class="section__header">
+                    <span class="section__label">Expertise</span>
+                    <h2 class="section__title fade-in-up" id="skills-title">Skills &amp; Expertise</h2>
+                    <div class="section__divider"></div>
+                </div>
+
+                <div class="skills__groups">
+                    <!-- Category 1: AI/ML -->
+                    <div class="skill-group fade-in-up stagger-1">
+                        <div class="skill-group__header">
+                            <div class="skill-group__icon" aria-hidden="true">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a4 4 0 0 1 4 4c0 1.1-.9 2-2 2h-4a2 2 0 0 1-2-2 4 4 0 0 1 4-4z"/><path d="M12 8v14"/><path d="M8 14h8"/><circle cx="12" cy="18" r="4"/></svg>
+                            </div>
+                            <h3 class="skill-group__title">AI / Machine Learning</h3>
+                        </div>
+                        <div class="skill-group__list">
+                            <div class="skill-bar"><div class="skill-bar__info"><span class="skill-bar__name">Machine Learning</span><span class="skill-bar__percent">0%</span></div><div class="skill-bar__track"><div class="skill-bar__fill" data-progress="90"></div></div></div>
+                            <div class="skill-bar"><div class="skill-bar__info"><span class="skill-bar__name">Deep Learning</span><span class="skill-bar__percent">0%</span></div><div class="skill-bar__track"><div class="skill-bar__fill" data-progress="88"></div></div></div>
+                            <div class="skill-bar"><div class="skill-bar__info"><span class="skill-bar__name">Computer Vision</span><span class="skill-bar__percent">0%</span></div><div class="skill-bar__track"><div class="skill-bar__fill" data-progress="85"></div></div></div>
+                            <div class="skill-bar"><div class="skill-bar__info"><span class="skill-bar__name">Generative AI &amp; LLMs</span><span class="skill-bar__percent">0%</span></div><div class="skill-bar__track"><div class="skill-bar__fill" data-progress="87"></div></div></div>
+                            <div class="skill-bar"><div class="skill-bar__info"><span class="skill-bar__name">RAG Pipelines</span><span class="skill-bar__percent">0%</span></div><div class="skill-bar__track"><div class="skill-bar__fill" data-progress="85"></div></div></div>
+                        </div>
+                    </div>
+
+                    <!-- Category 2: Programming -->
+                    <div class="skill-group fade-in-up stagger-2">
+                        <div class="skill-group__header">
+                            <div class="skill-group__icon" aria-hidden="true">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                            </div>
+                            <h3 class="skill-group__title">Programming Languages</h3>
+                        </div>
+                        <div class="skill-group__list">
+                            <div class="skill-bar"><div class="skill-bar__info"><span class="skill-bar__name">Python</span><span class="skill-bar__percent">0%</span></div><div class="skill-bar__track"><div class="skill-bar__fill" data-progress="92"></div></div></div>
+                            <div class="skill-bar"><div class="skill-bar__info"><span class="skill-bar__name">C++</span><span class="skill-bar__percent">0%</span></div><div class="skill-bar__track"><div class="skill-bar__fill" data-progress="75"></div></div></div>
+                            <div class="skill-bar"><div class="skill-bar__info"><span class="skill-bar__name">C#</span><span class="skill-bar__percent">0%</span></div><div class="skill-bar__track"><div class="skill-bar__fill" data-progress="72"></div></div></div>
+                        </div>
+                    </div>
+
+                    <!-- Category 3: Frameworks -->
+                    <div class="skill-group fade-in-up stagger-3">
+                        <div class="skill-group__header">
+                            <div class="skill-group__icon" aria-hidden="true">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="8" rx="2"/><rect x="2" y="14" width="20" height="8" rx="2"/><line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/></svg>
+                            </div>
+                            <h3 class="skill-group__title">Frameworks &amp; Libraries</h3>
+                        </div>
+                        <div class="skill-group__list">
+                            <div class="skill-bar"><div class="skill-bar__info"><span class="skill-bar__name">Django / FastAPI</span><span class="skill-bar__percent">0%</span></div><div class="skill-bar__track"><div class="skill-bar__fill" data-progress="88"></div></div></div>
+                            <div class="skill-bar"><div class="skill-bar__info"><span class="skill-bar__name">PyTorch / TensorFlow</span><span class="skill-bar__percent">0%</span></div><div class="skill-bar__track"><div class="skill-bar__fill" data-progress="85"></div></div></div>
+                            <div class="skill-bar"><div class="skill-bar__info"><span class="skill-bar__name">LangGraph</span><span class="skill-bar__percent">0%</span></div><div class="skill-bar__track"><div class="skill-bar__fill" data-progress="82"></div></div></div>
+                            <div class="skill-bar"><div class="skill-bar__info"><span class="skill-bar__name">Scikit-learn</span><span class="skill-bar__percent">0%</span></div><div class="skill-bar__track"><div class="skill-bar__fill" data-progress="88"></div></div></div>
+                            <div class="skill-bar"><div class="skill-bar__info"><span class="skill-bar__name">Flask</span><span class="skill-bar__percent">0%</span></div><div class="skill-bar__track"><div class="skill-bar__fill" data-progress="83"></div></div></div>
+                        </div>
+                    </div>
+
+                    <!-- Category 4: Databases -->
+                    <div class="skill-group fade-in-up stagger-4">
+                        <div class="skill-group__header">
+                            <div class="skill-group__icon" aria-hidden="true">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+                            </div>
+                            <h3 class="skill-group__title">Databases</h3>
+                        </div>
+                        <div class="skill-group__list">
+                            <div class="skill-bar"><div class="skill-bar__info"><span class="skill-bar__name">MySQL / SQL</span><span class="skill-bar__percent">0%</span></div><div class="skill-bar__track"><div class="skill-bar__fill" data-progress="85"></div></div></div>
+                            <div class="skill-bar"><div class="skill-bar__info"><span class="skill-bar__name">MongoDB</span><span class="skill-bar__percent">0%</span></div><div class="skill-bar__track"><div class="skill-bar__fill" data-progress="80"></div></div></div>
+                            <div class="skill-bar"><div class="skill-bar__info"><span class="skill-bar__name">ChromaDB / Vector DBs</span><span class="skill-bar__percent">0%</span></div><div class="skill-bar__track"><div class="skill-bar__fill" data-progress="78"></div></div></div>
+                        </div>
+                    </div>
+
+                    <!-- Category 5: Tools -->
+                    <div class="skill-group fade-in-up stagger-5">
+                        <div class="skill-group__header">
+                            <div class="skill-group__icon" aria-hidden="true">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+                            </div>
+                            <h3 class="skill-group__title">Tools &amp; DevOps</h3>
+                        </div>
+                        <div class="skill-group__list">
+                            <div class="skill-bar"><div class="skill-bar__info"><span class="skill-bar__name">Docker</span><span class="skill-bar__percent">0%</span></div><div class="skill-bar__track"><div class="skill-bar__fill" data-progress="78"></div></div></div>
+                            <div class="skill-bar"><div class="skill-bar__info"><span class="skill-bar__name">Git / GitHub</span><span class="skill-bar__percent">0%</span></div><div class="skill-bar__track"><div class="skill-bar__fill" data-progress="88"></div></div></div>
+                            <div class="skill-bar"><div class="skill-bar__info"><span class="skill-bar__name">.NET Core</span><span class="skill-bar__percent">0%</span></div><div class="skill-bar__track"><div class="skill-bar__fill" data-progress="72"></div></div></div>
+                            <div class="skill-bar"><div class="skill-bar__info"><span class="skill-bar__name">WPF</span><span class="skill-bar__percent">0%</span></div><div class="skill-bar__track"><div class="skill-bar__fill" data-progress="70"></div></div></div>
+                        </div>
+                    </div>
+
+                    <!-- Category 6: Other -->
+                    <div class="skill-group fade-in-up stagger-6">
+                        <div class="skill-group__header">
+                            <div class="skill-group__icon" aria-hidden="true">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                            </div>
+                            <h3 class="skill-group__title">Other</h3>
+                        </div>
+                        <div class="skill-group__list">
+                            <div class="skill-bar"><div class="skill-bar__info"><span class="skill-bar__name">Image Processing</span><span class="skill-bar__percent">0%</span></div><div class="skill-bar__track"><div class="skill-bar__fill" data-progress="85"></div></div></div>
+                            <div class="skill-bar"><div class="skill-bar__info"><span class="skill-bar__name">NLP / Text Analysis</span><span class="skill-bar__percent">0%</span></div><div class="skill-bar__track"><div class="skill-bar__fill" data-progress="82"></div></div></div>
+                            <div class="skill-bar"><div class="skill-bar__info"><span class="skill-bar__name">Research &amp; Technical Writing</span><span class="skill-bar__percent">0%</span></div><div class="skill-bar__track"><div class="skill-bar__fill" data-progress="80"></div></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== CERTIFICATIONS ===================== -->
+        <section class="certifications section" id="certifications" aria-labelledby="certifications-title">
+            <div class="container">
+                <div class="section__header">
+                    <span class="section__label">Credentials</span>
+                    <h2 class="section__title fade-in-up" id="certifications-title">Certifications</h2>
+                    <div class="section__divider"></div>
+                </div>
+
+                <div class="certifications__grid">
+                    <!-- Cert 1 -->
+                    <article class="cert-card fade-in-up stagger-1">
+                        <div class="cert-card__image-wrapper">
+                            <img src="certificates/intro_ai_ibm.png" alt="Introduction to Artificial Intelligence — IBM Certificate" class="cert-card__image cert-thumbnail" loading="lazy">
+                        </div>
+                        <div class="cert-card__body">
+                            <h3 class="cert-card__title">Introduction to Artificial Intelligence</h3>
+                            <span class="cert-card__provider">IBM (via Coursera)</span>
+                            <p class="cert-card__date">2024</p>
+                            <p class="project-card__description">Foundational certification covering AI concepts, machine learning fundamentals, and IBM AI tools.</p>
+                            <div class="cert-card__actions">
+                                <a href="https://coursera.org/share/6e4c4566a722c03e777c4534225e0be9" target="_blank" rel="noopener noreferrer" class="btn-link">Verify →</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Cert 2 -->
+                    <article class="cert-card fade-in-up stagger-2">
+                        <div class="cert-card__image-wrapper">
+                            <img src="certificates/ai_developer_ibm.png" alt="AI Developer — IBM Certificate" class="cert-card__image cert-thumbnail" loading="lazy">
+                        </div>
+                        <div class="cert-card__body">
+                            <h3 class="cert-card__title">AI Developer</h3>
+                            <span class="cert-card__provider">IBM (via Coursera)</span>
+                            <p class="cert-card__date">July 2025</p>
+                            <p class="project-card__description">Built AI applications using Python, Scikit-learn, Watson NLP, Flask, and prompt engineering.</p>
+                            <div class="cert-card__actions">
+                                <a href="https://coursera.org/share/8d06e4ff0b2889b9bb126579cafef039" target="_blank" rel="noopener noreferrer" class="btn-link">Verify →</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Cert 3 -->
+                    <article class="cert-card fade-in-up stagger-3">
+                        <div class="cert-card__image-wrapper">
+                            <img src="certificates/python_meta.png" alt="Programming in Python — Meta Certificate" class="cert-card__image cert-thumbnail" loading="lazy">
+                        </div>
+                        <div class="cert-card__body">
+                            <h3 class="cert-card__title">Programming in Python</h3>
+                            <span class="cert-card__provider">Meta (via Coursera)</span>
+                            <p class="cert-card__date">August 2025</p>
+                            <p class="project-card__description">Gained solid expertise in procedural programming paradigms and logical constructs, strengthening problem-solving and coding capabilities.</p>
+                            <div class="cert-card__actions">
+                                <a href="https://coursera.org/share/fad5aeb0d442f3f1b2888938daf05c64" target="_blank" rel="noopener noreferrer" class="btn-link">Verify →</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Cert 4 -->
+                    <article class="cert-card fade-in-up stagger-4">
+                        <div class="cert-card__image-wrapper">
+                            <img src="certificates/isro_sstat.png" alt="SSTAT — ISRO/IIRS Certificate" class="cert-card__image cert-thumbnail" loading="lazy">
+                        </div>
+                        <div class="cert-card__body">
+                            <h3 class="cert-card__title">Space Science and Technology Awareness Training (SSTAT)</h3>
+                            <span class="cert-card__provider">ISRO / IIRS</span>
+                            <p class="cert-card__date">February 2025</p>
+                            <p class="project-card__description">Completed ISRO-certified training on space science and technology applications.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== ACHIEVEMENTS ===================== -->
+        <section class="achievements section" id="achievements" aria-labelledby="achievements-title">
+            <div class="container">
+                <div class="section__header">
+                    <span class="section__label">Recognition</span>
+                    <h2 class="section__title fade-in-up" id="achievements-title">Achievements &amp; Recognition</h2>
+                    <p class="section__subtitle fade-in-up">From academic excellence to published research and industry recognition — a track record built on consistency, curiosity, and impact.</p>
+                    <div class="section__divider"></div>
+                </div>
+
+                <!-- Stats Counters -->
+                <div class="achievements__stats fade-in-up">
+                    <div class="stat-card">
+                        <div class="stat-card__number" data-target="1+">0</div>
+                        <div class="stat-card__label">Years Experience</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-card__number" data-target="4+">0</div>
+                        <div class="stat-card__label">Certifications</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-card__number" data-target="8">0</div>
+                        <div class="stat-card__label">Projects</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-card__number" data-target="2">0</div>
+                        <div class="stat-card__label">Publications</div>
+                    </div>
+                </div>
+
+                <!-- Achievement Cards -->
+                <div class="achievements__grid">
+                    <article class="achievement-card fade-in-up stagger-1">
+                        <div class="achievement-card__header">
+                            <span class="achievement-card__category">Academic</span>
+                            <span class="achievement-card__year">2023</span>
+                        </div>
+                        <h3 class="achievement-card__title">Research Publication — Data Decluttering Methods</h3>
+                        <p style="font-size: 0.8rem; color: var(--accent); margin-bottom: 0.5rem;">Indian Journal of Technical Education</p>
+                        <p class="achievement-card__description">Co-authored and published "A Comprehensive Investigation and Analysis of Data Decluttering Methods with Emphasis on Fuzzy and MD5 Algorithm," contributing original research to the field of data deduplication and file management systems.</p>
+                        <a href="http://www.isteonline.in/Datafiles/cms/Special%20issue%20July%202023%20web.pdf" target="_blank" rel="noopener noreferrer" class="btn-link achievement-card__link">Read Paper →</a>
+                    </article>
+
+                    <article class="achievement-card fade-in-up stagger-2">
+                        <div class="achievement-card__header">
+                            <span class="achievement-card__category">Academic</span>
+                            <span class="achievement-card__year">May 2026</span>
+                        </div>
+                        <h3 class="achievement-card__title">Book Chapter Publication — Microbiome Anomaly Detection using VAE &amp; GAN</h3>
+                        <p style="font-size: 0.8rem; color: var(--accent); margin-bottom: 0.5rem;">Bentham Science Publisher</p>
+                        <p class="achievement-card__description">Authored a book chapter titled "Analysing Microbiome Metagenomics to Detect Anomaly using Variational Autoencoders (VAE) and Generative Adversarial Network (GAN) for Predicting Crohn's Disease", published in Elevating Next Generation Genomic Science and Technology using Machine Learning in the Healthcare Industry. The research proposes a novel deep learning framework using VAE and GAN to tackle high-dimensionality challenges in gut microbiome metagenomic data.</p>
+                        <a href="https://www.eurekaselect.com/chapter/28059" target="_blank" rel="noopener noreferrer" class="btn-link achievement-card__link">View Publication →</a>
+                    </article>
+
+                    <article class="achievement-card fade-in-up stagger-3">
+                        <div class="achievement-card__header">
+                            <span class="achievement-card__category">Professional</span>
+                            <span class="achievement-card__year">2025</span>
+                        </div>
+                        <h3 class="achievement-card__title">Google Scholar Profile — Cited Researcher</h3>
+                        <p style="font-size: 0.8rem; color: var(--accent); margin-bottom: 0.5rem;">Google Scholar</p>
+                        <p class="achievement-card__description">Established a verified Google Scholar profile with indexed publications, cementing Samir's presence as an active contributor to academic AI and data science research.</p>
+                        <a href="https://scholar.google.com/citations?user=_E6iEeYAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" class="btn-link achievement-card__link">View Profile →</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== CONTACT ===================== -->
+        <section class="contact section" id="contact" aria-labelledby="contact-title">
+            <div class="container">
+                <div class="section__header">
+                    <span class="section__label">Contact</span>
+                    <h2 class="section__title fade-in-up" id="contact-title">Let's Build Something Together</h2>
+                    <div class="section__divider"></div>
+                </div>
+
+                <div class="contact__grid">
+                    <!-- Contact Form -->
+                    <div class="contact__form-wrapper fade-in-left">
+                        <form class="contact__form" id="contact-form" novalidate>
+                            <div class="form-group">
+                                <input type="text" class="form-group__input" name="name" id="contact-name" placeholder=" " required>
+                                <label for="contact-name" class="form-group__label">Full Name</label>
+                                <span class="form-group__underline"></span>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-group__input" name="email" id="contact-email" placeholder=" " required>
+                                <label for="contact-email" class="form-group__label">Email Address</label>
+                                <span class="form-group__underline"></span>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-group__input" name="subject" id="contact-subject" placeholder=" ">
+                                <label for="contact-subject" class="form-group__label">Subject</label>
+                                <span class="form-group__underline"></span>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-group__textarea" name="message" id="contact-message" placeholder=" " rows="5" required></textarea>
+                                <label for="contact-message" class="form-group__label">Message</label>
+                                <span class="form-group__underline"></span>
+                            </div>
+                            <button type="submit" class="btn-primary btn-shimmer contact__submit" id="contact-submit">Send Message</button>
+                        </form>
+                    </div>
+
+                    <!-- Contact Info Panel -->
+                    <div class="contact__info fade-in-right">
+                        <h3 class="contact__info-title">Contact Information</h3>
+                        <p class="contact__info-text">Feel free to reach out for collaborations, opportunities, or just a friendly chat about AI and technology.</p>
+
+                        <div class="contact__details">
+                            <div class="contact__detail">
+                                <div class="contact__detail-icon" aria-hidden="true">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                                </div>
+                                <div class="contact__detail-content">
+                                    <span class="contact__detail-label">Email</span>
+                                    <span class="contact__detail-value"><a href="mailto:samirjaiswal2121@gmail.com">samirjaiswal2121@gmail.com</a></span>
+                                </div>
+                            </div>
+                            <div class="contact__detail">
+                                <div class="contact__detail-icon" aria-hidden="true">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                                </div>
+                                <div class="contact__detail-content">
+                                    <span class="contact__detail-label">Phone</span>
+                                    <span class="contact__detail-value">+91 7007084082</span>
+                                </div>
+                            </div>
+                            <div class="contact__detail">
+                                <div class="contact__detail-icon" aria-hidden="true">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                                </div>
+                                <div class="contact__detail-content">
+                                    <span class="contact__detail-label">Location</span>
+                                    <span class="contact__detail-value">Ayodhya, India</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contact__socials">
+                            <a href="https://linkedin.com/in/samir-j-967269121/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="social-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                            </a>
+                            <a href="https://github.com/samir-j" target="_blank" rel="noopener noreferrer" aria-label="GitHub" class="social-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ===================== FOOTER ===================== -->
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer__logo">Samir Jaiswal</div>
+            <p class="footer__tagline">"Engineering Intelligence. Building Impact."</p>
+
+            <div class="footer__socials">
+                <a href="https://github.com/samir-j" target="_blank" rel="noopener noreferrer" aria-label="GitHub" class="social-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                </a>
+                <a href="https://linkedin.com/in/samir-j-967269121/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="social-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                </a>
+                <a href="mailto:samirjaiswal2121@gmail.com" aria-label="Email" class="social-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                </a>
+            </div>
+
+            <div class="footer__divider"></div>
+            <p class="footer__copyright">© 2025 <span>Samir Jaiswal</span>. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Back to top (created by JS) -->
+
+    <!-- ===================== SCRIPTS ===================== -->
+    <script src="script.js"></script>
+</body>
+</html>
